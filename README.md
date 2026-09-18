@@ -148,5 +148,5 @@ A **CD4052** dual 4-channel analog multiplexer routes one of 4 preset voltage ta
 
 ## 👤 Authorship & Academic Supervision
 
-* **Author:** Mohamed Mostafa Nasr
+* **Author:** Mohamed Mostafa Nasr & Mohamed Nasser
 * **Academic Supervisor:** Eng. Mahmoud Mohamed
