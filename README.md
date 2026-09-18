@@ -62,7 +62,7 @@ $$V_{amp}(T) = A_v \times V_{sensor}(T) = 7.8 \times (0.010 \times T) = 0.078 \t
 The amplified signal $V_{amp}$ is routed simultaneously to the non-inverting (+) inputs of 4 parallel comparators (LM339/LM741). A precision resistor ladder ($R_1 - R_4 = 10\text{ k}\Omega$) sets 4 uniform reference thresholds ($\approx 0.8\text{ V}$ step size), producing a 4-bit thermometer code output ($q_0, q_1, q_2, q_3$).
 
 ### Stage 3: Combinational Logic Addressing
-Instead of deploying an oversized priority encoder IC, a minimalist discrete gate network synthesizes the 2-bit channel selection lines ($S_0, S_1$) to address the multiplexer:
+Instead of deploying an multiplexer priority encoder IC, a minimalist discrete gate network synthesizes the 2-bit channel selection lines ($S_0, S_1$) to address the multiplexer:
 $$S_0 = q_3 + (q_1 \cdot \overline{q_2})$$
 $$S_1 = q_2 + q_3$$
 * Synthesized physically using one NOT inverter, one 2-input AND gate, and two 2-input OR gates.
@@ -148,5 +148,5 @@ A **CD4052** dual 4-channel analog multiplexer routes one of 4 preset voltage ta
 
 ## 👤 Authorship & Academic Supervision
 
-* **Author:** Mohamed Mostafa Nasr & Mohamed Nasser
+* **Authors:** Mohamed Mostafa Nasr & Mohamed Nasser
 * **Academic Supervisor:** Eng. Mahmoud Mohamed
