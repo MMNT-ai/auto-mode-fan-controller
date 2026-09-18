@@ -3,6 +3,12 @@
 
 ---
 
+<div align="center">
+  <img src="assets/assembled-board.png" alt="Assembled Auto-Mode Motor Driver PCB" width="700"/>
+  <p><em>Figure 1: Fully assembled, CNC-milled prototype of the Auto-Mode Fan Controller PCB.</em></p>
+</div>
+
+---
 
 ## 📌 Executive Summary
 
