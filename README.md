@@ -1,6 +1,12 @@
 # ⚡ Automatic Multi-Speed Fan Controller (Auto-Mode Fan)
 ### *A 100% Pure Hardware, MCU-Less Autonomous Closed-Loop Thermal Regulation System*
 
+![Architecture](https://img.shields.io/badge/Architecture-100%25_Pure_Hardware-red?style=for-the-badge)
+![Firmware](https://img.shields.io/badge/Firmware-Zero_Code_|_MCU--Less-black?style=for-the-badge)
+![Status](https://img.shields.io/badge/Hardware-Verified_&_Assembled-success?style=for-the-badge)
+![Standards](https://img.shields.io/badge/Compliance-IPC--2221_|_IPC--2152-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 ---
 
 <div align="center">
